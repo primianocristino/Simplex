@@ -3,21 +3,21 @@
 A full complete simplex solver using Gauss method
 
 
-```shell
+```console
 pip install -r requirements.txt
 ```
-to run a graphical visualization of 1 out of different exercise
-
-number_example must be a number in 1..5
-```shell
-python SimplexExamples.py number_example
+There are 5 possible examples of how the simplex works on 2 dimension, that can be plotted:
+```console
+python SimplexExamples.py <example number>
 ```
 
-to run different flow in graph problem examples
+There are 3 possible examples of how simplex works on n-dimensions:
+<ol>
+<li>Minimum-cost flow problem</li>
+<li>Maximum flow problem </li>
+<li>Maximum flow as Minimum-cost flow</li>
+</ol>
 
-number_example in 1..3
-{1: minCostEx, 2: maxFlowEx, 3: maxFlowAsMinCost}
-
-```shell
-python graphExamples.py number_example
+```console
+python graphExamples.py <example number>
 ```
